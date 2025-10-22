@@ -1,7 +1,7 @@
 # Team Members
-Sharon Wambua
-Catherine Syombua
-Joan Kirui
+Sharon Wambua  
+Catherine Syombua  
+Joan Kirui  
 
 # Concept Description
 This project solves the problem of secure key distribution - how two parties (Alice and Bob) can create a shared secret key over an insecure channel while detecting whether a third party (Eve) has been eavesdropping.
@@ -75,7 +75,7 @@ Example: 0 mismatches out of 4 checks → QBER = 0%
 Interpretation:
 * QBER < 5% → Channel is secure
 * 5–20% → Possibly noisy
-* >0% → Potential eavesdropping detected
+* QBER > 0% → Potential eavesdropping detected
 
 3. Key Extraction & Rate
 Only non-check, correctly decoded rounds are kept as the raw key.
